@@ -2,31 +2,7 @@
 
 Encode
 
-Input | Output
-
- 6111 = 6F5F
- 
- 340  = 4254
- 
--2628 = 2B3C
-
--255  = 3E01
-
- 7550 = 7A7E
-
-Decode
-
-Input | Output
-
-0A0A  = -6902
-
-0029  = -8151
-
-3F0F  = -113
-
-4400  =  512
-
-5E7F  =  3967
+Create a program to Encode 14-bit integer into a 4 character hexidecimal string and Decode 14-bit integer from hexidecimal.
 
 #### Copyright
 
