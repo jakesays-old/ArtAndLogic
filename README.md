@@ -1,6 +1,6 @@
 ### Art & Logic Programming Challenge
 
-Encode
+Encode & Decode
 
 Create a program to Encode 14-bit integer into a 4 character hexidecimal string and Decode 14-bit integer from hexidecimal.
 
