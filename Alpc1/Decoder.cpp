@@ -6,7 +6,7 @@
 short Decode(unsigned char hiByte, unsigned char loByte)
 {
 	short result = 0;
-	
+
 	//Recombine high and low bytes and then tranlate to 14-bit range [-8192..+8191]
 	result = ((hiByte << 7) | loByte) - 8192;
 

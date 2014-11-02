@@ -11,19 +11,19 @@ using namespace std;
 * Encodes a 14-bit integer into a 4-character hexadecimal string
 * \param A 16-bit integer value to encode
 */
-string Encode(short encodeVal);
+std::string Encode(short encodeVal);
 
 
 /**
 * Converts a byte into a 2 character Hexidecimal string
 * \param The value to convert to Hexidecimal
 */
-string DecToHex(short byte);
+std::string DecToHex(short byte);
 
 /**
 * Converts High Byte and Low Byte into a 4 character Hexidecimal string
 * \param The value to convert to Hexidecimal
 */
-string DecToHex(unsigned char hiByte, unsigned char loByte);
+std::string DecToHex(unsigned char hiByte, unsigned char loByte);
 
 #endif
