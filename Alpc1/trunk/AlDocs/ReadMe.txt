@@ -2,12 +2,6 @@
     CONSOLE APPLICATION : Alpc1 Project Overview
 ========================================================================
 
-AppWizard has created this Alpc1 application for you.
-
-This file contains a summary of what you will find in each of the files that
-make up your Alpc1 application.
-
-
 Alpc1.vcxproj
     This is the main project file for VC++ projects generated using an Application Wizard.
     It contains information about the version of Visual C++ that generated the file, and
@@ -24,6 +18,12 @@ Alpc1.vcxproj.filters
 Alpc1.cpp
     This is the main application source file.
 
+Decoder.h, Decoder.cpp
+	Decodes a 14-bit integer from a 4-character hexadecimal string
+
+Encoder.h, Encoder.cpp 
+	Encodes a 14-bit integer into a 4-character hexadecimal string
+
 /////////////////////////////////////////////////////////////////////////////
 Other standard files:
 
@@ -33,8 +33,6 @@ StdAfx.h, StdAfx.cpp
 
 /////////////////////////////////////////////////////////////////////////////
 Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
+	Developed in Visual Studio 2013.
 
 /////////////////////////////////////////////////////////////////////////////
